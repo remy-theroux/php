@@ -12,6 +12,7 @@
   1. [String](#strings)
   1. [Arrays](#arrays)
   1. [Classes, Properties, and Methods](#classes)
+  1. [Interfaces](#interfaces)
   1. [Function and Method Calls](#function-method-calls)
   1. [Control Structures](#control-structures)
   1. [Closures](#closures)
@@ -620,6 +621,25 @@ foo(
 ∙∙∙∙$longBar,
 ∙∙∙∙$longBaz
 );
+```
+## <a name='interfaces'>Interfaces</a>
+
+  - The interface name must be suffixed with `Interface`.
+
+```php
+<?php
+
+namespace Vendor\Foo;
+
+interface FooInterface
+{
+    /**
+     * Set foo
+     *
+     * @param string $foo
+     */
+    public function setFoo($foo);
+}
 ```
 ## <a name='control-structures'>Control structures</a>
 
